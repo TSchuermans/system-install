@@ -43,4 +43,4 @@ echo 'export PATH=$HOME/.composer/vendor/bin:$PATH' | cat - ~/.zshrc > temp && m
 (cd /tmp && curl -O "https://raw.githubusercontent.com/TSchuermans/system-install/main/Solarized Dark - Patched.itermcolors" && open "/tmp/Solarized Dark - Patched.itermcolors")
 
 title "Configure osx"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/TSchuermans/system-install/main/.macos)"
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/TSchuermans/system-install/main/.macos)"
